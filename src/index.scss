@@ -1,0 +1,80 @@
+@import "flexboxgrid";
+
+$primary-color: #b6121b;
+$link-color: #3f3f3f;
+$mobile-breakpoint: 1023px;
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+}
+
+button, a.button {
+    background-color: $primary-color;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.give.button {
+    font-size: 22px;
+}
+
+.content, navbar {
+    max-width: 940px;
+    margin: 16px auto;
+    display: block;
+}
+
+navbar {
+    .nav {
+        a {
+            margin-left: 24px;
+
+            @media screen and (max-width: $mobile-breakpoint) {
+                margin-left: 16px;
+            }
+
+        }
+    }
+}
+
+.logo {
+    max-width: 345px;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        max-width: 210px;
+        margin-bottom: 16px;
+    }
+}
+
+.hero {
+    background-color: $link-color;
+    color: #fafafa;
+    font-style: italic;
+    font-size: 22px;
+    padding: 32px 0;
+
+    .about {
+        font-size: initial;
+    }
+
+    a {
+        color: #fafafa;
+    }
+}
+
+.image-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.promotion {
+    filter: grayscale(1) contrast(1.25);
+}
