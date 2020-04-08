@@ -1,4 +1,5 @@
 @import "flexboxgrid";
+// @import "./icomoon.scss";
 
 $primary-color: #b6121b;
 $link-color: #3f3f3f;
@@ -24,6 +25,16 @@ button, a.button {
 
 .give.button {
     font-size: 22px;
+}
+
+.contactinfo {
+    font-size: 75%;
+    color: #666;
+    margin-bottom: 10px;
+
+    .icon-phone {
+        padding-left: 20px;
+    }
 }
 
 .content, navbar {
