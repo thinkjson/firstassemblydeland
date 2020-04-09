@@ -6,18 +6,6 @@ layout: home
 permalink: /
 ---
 
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo1.jpg"><img class="image-responsive" src="/assets/promo1.jpg" /></a>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo2.jpg"><img class="image-responsive" src="/assets/promo2.jpg" /></a>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo3.jpg"><img class="image-responsive" src="/assets/promo3.jpg" /></a>
-    </div>
-</div>
-
 ## Services and schedule
 
 <div class="schedule row">
@@ -41,6 +29,17 @@ permalink: /
     </div>
 </div>
 
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="/assets/promo1.jpg"><img class="image-responsive" src="/assets/promo1.jpg" /></a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="/assets/promo2.jpg"><img class="image-responsive" src="/assets/promo2.jpg" /></a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="/assets/promo3.jpg"><img class="image-responsive" src="/assets/promo3.jpg" /></a>
+    </div>
+</div>
 
 ## Upcoming events
 

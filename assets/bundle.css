@@ -735,6 +735,12 @@ body {
   margin: 0;
   padding: 0; }
 
+h1 {
+  margin: 22px 0; }
+
+h2 {
+  margin: 16px 0; }
+
 a {
   text-decoration: none;
   color: #3f3f3f; }
@@ -782,6 +788,9 @@ navbar .nav a {
     .logo {
       max-width: 210px;
       margin-bottom: 16px; } }
+
+.schedule {
+  margin-bottom: 16px; }
 
 .hero {
   background-color: #3f3f3f;

@@ -11,6 +11,14 @@ body {
     padding: 0;
 }
 
+h1 {
+    margin: 22px 0;
+}
+
+h2 {
+    margin: 16px 0;
+}
+
 a {
     text-decoration: none;
     color: $link-color;
@@ -79,6 +87,10 @@ navbar {
         max-width: 210px;
         margin-bottom: 16px;
     }
+}
+
+.schedule {
+    margin-bottom: 16px;
 }
 
 .hero {
