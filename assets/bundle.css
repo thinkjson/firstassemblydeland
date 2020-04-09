@@ -758,11 +758,17 @@ button, a.button {
     font-size: 16px; }
     .contactinfo .social a {
       padding: 6px 0 6px 6px; }
+    @media screen and (max-width: 1023px) {
+      .contactinfo .social {
+        display: none; } }
 
 .content, navbar {
   max-width: 940px;
   margin: 16px auto;
   display: block; }
+  @media screen and (max-width: 1023px) {
+    .content, navbar {
+      margin: 16px; } }
 
 navbar .nav a {
   margin-left: 24px; }
@@ -787,6 +793,9 @@ navbar .nav a {
     font-size: initial; }
   .hero a {
     color: #fafafa; }
+  @media screen and (max-width: 1023px) {
+    .hero {
+      font-size: 18px; } }
 
 .image-responsive {
   width: 100%;
