@@ -19,6 +19,10 @@ h2 {
     margin: 16px 0;
 }
 
+.home h2 {
+    margin-top: 48px;
+}
+
 a {
     text-decoration: none;
     color: $link-color;
@@ -59,7 +63,7 @@ button, a.button {
 
 .content, navbar {
     max-width: 940px;
-    margin: 16px auto;
+    margin: 16px auto 24px;
     display: block;
 
     @media screen and (max-width: $mobile-breakpoint) {
@@ -95,6 +99,9 @@ navbar {
 
 .hero {
     background-color: $link-color;
+    background-image: url("/assets/tower.jpg");
+    background-size: cover;
+    background-position: 33% 0%;
     color: #fafafa;
     font-style: italic;
     font-size: 22px;

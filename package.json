@@ -11,6 +11,7 @@
     "start": "yarn run webpack --watch | jekyll serve --livereload --incremental"
   },
   "devDependencies": {
+    "@types/react": "^16.9.34",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-es2015": "^6.24.1",
@@ -32,6 +33,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "@types/react-dom": "^16.9.6",
     "flexboxgrid": "^6.3.1"
   }
 }

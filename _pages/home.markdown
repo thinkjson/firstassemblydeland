@@ -6,6 +6,8 @@ layout: home
 permalink: /
 ---
 
+<div class="component-live"></div>
+
 ## Services and schedule
 
 <div class="schedule row">
