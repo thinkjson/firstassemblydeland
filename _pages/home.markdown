@@ -53,7 +53,7 @@ permalink: /
         <img class="image-responsive" src="/assets/sunrise-service20.jpg" />
     </div>
 </div>
-<div class="end-xs end-sm end-md end-lg"><a href="/events"><strong>More events &raquo;</strong></a></div>
+<div class="end-xs end-sm end-md end-lg"><a href="/events/"><strong>More events &raquo;</strong></a></div>
 
 ## Connect with us
 
