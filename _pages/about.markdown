@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: About Us
 permalink: /about-us
 ---
 
@@ -15,7 +15,11 @@ Each of our staff has experience in the marketplace before coming to First Assem
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <h2>More about us</h2>
-        <a href="/about-us/staff">Staff and Eldership</a>
+        <ul>
+            <li><strong><a href="/about-us/staff">Staff and Eldership</a></strong></li>
+            <li><strong><a href="/about-us/our-values">Our Values</a></strong></li>
+            <li><strong><a href="/about-us/history-vision">History & Vision</a></strong></li>
+        </ul>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3488.9342890366743!2d-81.2606131!3d29.0189352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e71be705bca1cb%3A0xbb86f0288b54b0a9!2sFirst%20Assembly%20of%20Deland!5e0!3m2!1sen!2sus!4v1586904020919!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
