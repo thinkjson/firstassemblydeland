@@ -54,3 +54,17 @@ permalink: /
     </div>
 </div>
 <div class="end-xs end-sm end-md end-lg"><a href="/events"><strong>More events &raquo;</strong></a></div>
+
+## Connect with us
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <!-- Twitter -->
+        <a class="twitter-timeline" data-height="400" href="https://twitter.com/firstdeland?ref_src=twsrc%5Etfw">Tweets by firstdeland</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <!-- Facebook -->
+        <div class="fb-page" data-href="https://www.facebook.com/firstassemblydeland" data-tabs="timeline" data-height="400" data-width="1000" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/firstassemblydeland" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/firstassemblydeland">First Assembly DeLand</a></blockquote></div>
+    </div>
+</div>

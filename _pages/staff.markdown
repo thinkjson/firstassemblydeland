@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Staff and Eldership
-permalink: /about-us/staff
+permalink: /about-us/people/
 ---
 
 ## Michael Modica

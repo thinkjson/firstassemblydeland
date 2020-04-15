@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Us
-permalink: /about-us
+permalink: /about-us/
 ---
 
 We believe, in keeping with Jesus’ Commandment to “Go”, that we have the privilege of speaking blessing, peace, and salvation over our community. As a result, God has given us both favor and opportunity to meet the heartfelt needs of those around us. This is in keeping with our mission statement, “Caring for Individuals and Strengthening Families.”

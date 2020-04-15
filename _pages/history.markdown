@@ -1,7 +1,7 @@
 ---
 layout: default
 title: History & Vision
-permalink: /about-us/history-vision
+permalink: /about-us/history-vision/
 ---
 
 Begun as a missions outreach in 1952, First Assembly DeLand is a testimony to God’s faithfulness and the tenacity of godly men and women. On at least two occasions, the church was given up for dead. Yet out of the ashes of despair, God has raised up a congregation that is making a difference in reaching a city for Him.

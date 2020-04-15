@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Our Values
-permalink: /about-us/our-values
+permalink: /about-us/our-values/
 ---
 
 ## 1. JESUS
