@@ -130,6 +130,28 @@ navbar {
     @media screen and (max-width: $mobile-breakpoint) {
         font-size: 18px;
     }
+
+    &.megamen {
+        background-image: url("/assets/megamen.jpg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 150px;
+        font-style: normal;
+
+        a {
+            padding: 50px;
+            text-align: center;
+
+            h2 {
+                margin: 0;
+            }
+        }
+    }
+}
+
+.component-live {
+    margin-bottom: 16px;
 }
 
 .image-responsive {

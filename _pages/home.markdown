@@ -6,9 +6,21 @@ layout: home
 permalink: /
 ---
 
+## Services and schedule
+
 <div class="component-live"></div>
 
-## Services and schedule
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="/assets/promo1.jpg"><img class="image-responsive" src="/assets/promo1.jpg" /></a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="/assets/promo2.jpg"><img class="image-responsive" src="/assets/promo2.jpg" /></a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="/assets/promo3.jpg"><img class="image-responsive" src="/assets/promo3.jpg" /></a>
+    </div>
+</div>
 
 <div class="schedule row">
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 end-lg end-md">
@@ -28,18 +40,6 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
         <time>6:00pm</time> M. E. G. A. Men
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo1.jpg"><img class="image-responsive" src="/assets/promo1.jpg" /></a>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo2.jpg"><img class="image-responsive" src="/assets/promo2.jpg" /></a>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo3.jpg"><img class="image-responsive" src="/assets/promo3.jpg" /></a>
     </div>
 </div>
 
