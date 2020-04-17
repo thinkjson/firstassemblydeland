@@ -137,6 +137,7 @@ navbar {
 
     &.sunday {
         background-image: url("/assets/morning.jpg");
+        background-position: top left;
 
         a {
             color: $link-color;
