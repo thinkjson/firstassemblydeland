@@ -11,6 +11,7 @@ import "./images/events/Good-Friday20-scaled.jpg"
 import "./images/events/sunrise-service20.jpg";
 import "./images/tower.jpg"
 import "./images/megamen.jpg"
+import "./images/morning.jpg"
 
 document.querySelectorAll(".component-live").forEach(div => 
     render(<Live />, div));

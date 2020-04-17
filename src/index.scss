@@ -54,7 +54,7 @@ button, a.button {
         font-size: 16px;
 
         a {
-            padding: 6px 0 6px 6px;
+            padding: 6px 0 6px 8px;
         }
 
         @media screen and (max-width: $mobile-breakpoint) {
@@ -133,11 +133,23 @@ navbar {
 
     &.megamen {
         background-image: url("/assets/megamen.jpg");
+    }
+
+    &.sunday {
+        background-image: url("/assets/morning.jpg");
+
+        a {
+            color: $link-color;
+        }
+    }
+
+    &.live {
         display: flex;
         align-items: center;
         justify-content: center;
         min-height: 150px;
         font-style: normal;
+        box-shadow: 1px 1px 5px #666;
 
         a {
             padding: 50px;

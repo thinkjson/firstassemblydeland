@@ -6,30 +6,58 @@ enum LiveService {
     MegaMen,
 }
 
-export class Live extends React.Component {
-    megaMen = "https://zoom.us/j/608213572";
+const REFRESH_INTERVAL = 5 * 60 * 1000;
+
+interface LiveState {
+    isLiveService?: LiveService;
+}
+
+export class Live extends React.Component<{}, LiveState> {
+    constructor(props: {}) {
+        super(props);
+        this.state = { isLiveService: this.isLiveService() };
+    }
 
     isLiveService() {
         const now = new Date();
-        console.log(now.getDay(), now.getHours())
-        if (now.getDay() === 4 && now.getHours() >= 18 && now.getHours() < 20) {
+        const params = new URLSearchParams(window.location.search);
+        const day = parseInt(params.get("day"), 10) || now.getDay();
+        const hour = `${now.getHours()}`.padStart(2);
+        const minute = `${now.getMinutes()}`.padStart(2);
+        const time = params.get("time") || `${hour}:${minute}`;
+        console.log("now", day, time);
+        if (day === 4 && time >= "18:00" && time <= "19:30") {
             return LiveService.MegaMen;
-        } else if (now.getDay() === 6 && now.getHours() >= 10 && now.getHours() < 12) {
+        } else if (day === 6 && time >= "10:00" && time <= "12:15") {
             return LiveService.SundayService;
-        } else if (now.getDay() === 3 && now.getHours() >= 10 && now.getHours() < 12) {
+        } else if (day === 3 && time >= "18:30" && time <= "20:00") {
             return LiveService.WednesdayService;
         }
     }
 
+    componentDidMount() {
+        setInterval(() => {
+            this.setState({ isLiveService: this.isLiveService() });
+        }, REFRESH_INTERVAL);
+    }
+
     render() {
-        const isLiveService = this.isLiveService();
-        console.log("isLiveService", isLiveService)
+        const { isLiveService } = this.state;
         if (isLiveService === LiveService.MegaMen) {
             return (
-                <div className="megamen hero">
+                <div className="megamen live hero">
                     <a href="https://zoom.us/j/608213572" target="_blank">
                         <h2>MEGA Men is live now!</h2>
                         Click here to connect to the Zoom call
+                    </a>
+                </div>
+            );
+        } else if (isLiveService === LiveService.SundayService) {
+            return (
+                <div className="sunday live hero">
+                    <a href="https://www.youtube.com/c/Firstassemblydeland/live" target="_blank">
+                        <h2>Sunday Service is live now!</h2>
+                        Click here to watch to the live stream
                     </a>
                 </div>
             );
