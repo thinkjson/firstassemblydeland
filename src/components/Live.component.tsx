@@ -30,7 +30,7 @@ export class Live extends React.Component<{}, LiveState> {
             return LiveService.MegaMen;
         } else if (day === 6 && time >= "10:00" && time <= "12:15") {
             return LiveService.SundayService;
-        } else if (day === 3 && time >= "18:30" && time <= "20:00") {
+        } else if (day === 2 && time >= "18:30" && time <= "20:00") {
             return LiveService.WednesdayService;
         }
     }
@@ -43,6 +43,7 @@ export class Live extends React.Component<{}, LiveState> {
 
     render() {
         const { isLiveService } = this.state;
+        console.log("state", this.state);
         if (isLiveService === LiveService.MegaMen) {
             return (
                 <div className="megamen live hero">
@@ -57,6 +58,15 @@ export class Live extends React.Component<{}, LiveState> {
                 <div className="sunday live hero">
                     <a href="https://www.youtube.com/c/Firstassemblydeland/live" target="_blank">
                         <h2>Sunday Service is live now!</h2>
+                        Click here to watch to the live stream, or tune in to 87.9 FM
+                    </a>
+                </div>
+            );
+        } else if (isLiveService === LiveService.WednesdayService) {
+            return (
+                <div className="wednesday live hero">
+                    <a href="https://www.youtube.com/c/Firstassemblydeland/live" target="_blank">
+                        <h2>Wednesday Bible Study is live now!</h2>
                         Click here to watch to the live stream
                     </a>
                 </div>

@@ -6,8 +6,6 @@ layout: home
 permalink: /
 ---
 
-## Services and schedule
-
 <div class="component-live"></div>
 
 <div class="row">
@@ -22,24 +20,26 @@ permalink: /
     </div>
 </div>
 
+## Services and schedule
+
 <div class="schedule row">
-    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 end-lg end-md">
-        <strong>Sundays</strong>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div>
+            <h3>Sundays at 10am</h3>
+            Drive-in church and church online
+        </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-        <time>10:00am</time> Drive-in church and church online
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div>
+            <h3>Wednesdays at 6:30pm</h3>
+            Bible study
+        </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 end-lg end-md">
-        <strong>Wednesdays</strong>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-        <time>6:30pm</time> Bible study
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 end-lg end-md">
-        <strong>Thursdays</strong>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-        <time>6:00pm</time> M. E. G. A. Men
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div>
+            <h3>Thursdays at 6pm</h3>
+            MEGA Men
+        </div>
     </div>
 </div>
 
