@@ -134,7 +134,7 @@ navbar {
 
 .hero {
     background-color: $link-color;
-    background-image: url("/assets/tower.jpg");
+    background-image: url("/static/tower.jpg");
     background-size: cover;
     background-position: 33% 0%;
     color: $alabaster;
@@ -155,15 +155,15 @@ navbar {
     }
 
     &.megamen {
-        background-image: url("/assets/megamen.jpg");
+        background-image: url("/static/megamen.jpg");
     }
 
     &.wednesday {
-        background-image: url("/assets/bible_study.jpg");
+        background-image: url("/static/bible_study.jpg");
     }
 
     &.sunday {
-        background-image: url("/assets/morning.jpg");
+        background-image: url("/static/morning.jpg");
         background-position: top left;
 
         a {

@@ -10,13 +10,13 @@ permalink: /
 
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo1.jpg"><img class="image-responsive" src="/assets/promo1.jpg" /></a>
+        <a href="/static/promo1.jpg"><img class="image-responsive" src="/static/promo1.jpg" /></a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo2.jpg"><img class="image-responsive" src="/assets/promo2.jpg" /></a>
+        <a href="/static/promo2.jpg"><img class="image-responsive" src="/static/promo2.jpg" /></a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="/assets/promo3.jpg"><img class="image-responsive" src="/assets/promo3.jpg" /></a>
+        <a href="/static/promo3.jpg"><img class="image-responsive" src="/static/promo3.jpg" /></a>
     </div>
 </div>
 
@@ -47,10 +47,10 @@ permalink: /
 
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <img class="image-responsive" src="/assets/Good-Friday20-scaled.jpg" />
+        <img class="image-responsive" src="/static/Good-Friday20-scaled.jpg" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <img class="image-responsive" src="/assets/sunrise-service20.jpg" />
+        <img class="image-responsive" src="/static/sunrise-service20.jpg" />
     </div>
 </div>
 <div class="end-xs end-sm end-md end-lg"><a href="/events/"><strong>More events &raquo;</strong></a></div>
@@ -70,5 +70,5 @@ permalink: /
 </div>
 
 <a href="https://firstdeland.churchcenter.com/giving">
-    <img src="/assets/waystogive.png" class="image-responsive" />
+    <img src="/static/waystogive.png" class="image-responsive" />
 </a>
