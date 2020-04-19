@@ -25,7 +25,6 @@ export class Live extends React.Component<{}, LiveState> {
         const hour = `${now.getHours()}`.padStart(2);
         const minute = `${now.getMinutes()}`.padStart(2);
         const time = params.get("time") || `${hour}:${minute}`;
-        console.log("now", day, time);
         if (day === 4 && time >= "18:00" && time <= "19:30") {
             return LiveService.MegaMen;
         } else if (day === 6 && time >= "10:00" && time <= "12:15") {
@@ -43,7 +42,6 @@ export class Live extends React.Component<{}, LiveState> {
 
     render() {
         const { isLiveService } = this.state;
-        console.log("state", this.state);
         if (isLiveService === LiveService.MegaMen) {
             return (
                 <div className="megamen live hero">
