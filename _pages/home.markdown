@@ -68,3 +68,7 @@ permalink: /
         <div class="fb-page" data-href="https://www.facebook.com/firstassemblydeland" data-tabs="timeline" data-height="400" data-width="1000" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/firstassemblydeland" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/firstassemblydeland">First Assembly DeLand</a></blockquote></div>
     </div>
 </div>
+
+<a href="https://firstdeland.churchcenter.com/giving">
+    <img src="/assets/waystogive.png" class="image-responsive" />
+</a>
