@@ -43,6 +43,7 @@ permalink: /
     </div>
 </div>
 
+<!--
 ## Upcoming events
 
 <div class="row">
@@ -54,6 +55,7 @@ permalink: /
     </div>
 </div>
 <div class="end-xs end-sm end-md end-lg"><a href="/events/"><strong>More events &raquo;</strong></a></div>
+-->
 
 ## Connect with us
 
