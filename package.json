@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "yarn run webpack --watch | jekyll serve --livereload --incremental"
+    "start": "yarn run webpack --watch | jekyll serve --livereload"
   },
   "devDependencies": {
     "@types/react": "^16.9.34",
