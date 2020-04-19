@@ -1,4 +1,5 @@
 const path = require("path");
+const fs = require("fs");
 const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
@@ -44,8 +45,8 @@ module.exports = {
                     {
                         loader: "file-loader",
                         options: {
-                            name: "[name].[ext]"
-                        }
+                            name: "[name].[ext]",
+                        },
                     },
                     {
                         loader: "image-webpack-loader",
@@ -68,14 +69,14 @@ module.exports = {
                             // the webp option will enable WEBP
                             webp: {
                                 quality: 75,
-                            }
+                            },
                         },
                     },
-                ]
+                ],
             },
             {
                 test: /\.(woff|woff2|ttf|eot)$/,
-                use: 'file-loader?name=fonts/[name].[ext]!static'
+                use: "file-loader?name=fonts/[name].[ext]!static",
             },
         ],
     },
@@ -83,12 +84,17 @@ module.exports = {
         extensions: [".tsx", ".ts", ".js"],
     },
     output: {
-        filename: "bundle.js",
+        filename: "bundle.[hash].js",
         path: path.resolve(__dirname, "static"),
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "bundle.css",
+            filename: "bundle.[hash].css",
         }),
+        function () {
+            this.plugin("done", function (stats) {
+                fs.writeFileSync(path.join(__dirname, "_data", "webpack.yml"), 'hash: "' + stats.hash + '"');
+            });
+        },
     ],
 };

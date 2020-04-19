@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "react-dom";
-import { Social } from "../_site/src/components/Social.component";
+import { Social } from "./components/Social.component";
 import { Live } from "./components/Live.component";
 import "./images/bible_study.jpg";
 import "./images/events/Good-Friday20-scaled.jpg";
