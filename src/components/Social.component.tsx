@@ -20,10 +20,12 @@ export class Social extends React.Component<{}, SocialState> {
     }
 
     componentDidMount() {
-        Promise.all([
-            this.loadScript("https://platform.twitter.com/widgets.js"),
-            this.loadScript("https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=151829711542674&autoLogAppEvents=1"),
-        ]).then(() => this.setState({ loaded: true }));
+        if (navigator.doNotTrack !== "1") {
+            Promise.all([
+                this.loadScript("https://platform.twitter.com/widgets.js"),
+                this.loadScript("https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=151829711542674&autoLogAppEvents=1"),
+            ]).then(() => this.setState({ loaded: true }));
+        }
     }
 
     render() {
