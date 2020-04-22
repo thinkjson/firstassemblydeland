@@ -194,6 +194,12 @@ navbar {
     .col-lg-4 {
         margin-bottom: 22px;
 
+        .title,.phone {
+            color: $link-color;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
         h2 {
             margin-bottom: 8px;
         }

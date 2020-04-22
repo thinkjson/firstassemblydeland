@@ -19,14 +19,16 @@ permalink: /about-us/people/
         <h2>Mike Carroll</h2>
         <div class="title">Associate Pastor</div>
         <div class="phone"><a href="tel:3868042848">(386) 804-2848</a></div>
-        Mike Carroll is a graduate of Stetson University and he and his wife of 41 years, Donna, have served as Associate Pastors since 1996.
+
+        <div>Mike Carroll is a graduate of Stetson University and he and his wife of 41 years, Donna, have served as Associate Pastors since 1996.</div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <img class="image-responsive" src="/static/scaled_nathan_buker2019.jpg">
         <h2>Nathan Buker</h2>
         <div class="title">Youth Pastor</div>
-        +1 (386) 479-6425
+        <div class="phone"><a href="tel:3864796425">(386) 479-6425</a></div>
+        
         Pastor Nate has been involved with student ministry in Deland area for over 16 years. Along with his wife Dawn of 23 years they have enjoyed supporting the family unit as they invest teens.
     </div>
 
@@ -35,15 +37,16 @@ permalink: /about-us/people/
         <img class="image-responsive" src="/static/scaled_Pastor_Dawn_09.jpg">
         <h2>Dawn Anderson</h2>
         <div class="title">Children's Pastor</div>
-        +1 (386) 801-8055
+        <div class="phone"><a href="tel:3868018055">(386) 801-8055</a></div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <img class="image-responsive" src="/static/scaled_mykaela_blades2019.jpg">
         <h2>Mykaela Blades</h2>
         <div class="title">Music and Arts Director</div>
-        +1 (386) 748-6902
-        After attending First Assembly as a youth, Mykaela went to Southwestern University in Texas and obtained a B.A. in Music and The Arts. She returned to DeLand and serves as First Assemblies Music and Arts Director.
+        <div class="phone"><a href="tel:3867486902">(386) 748-6902</a></div>
+        
+        <div>After attending First Assembly as a youth, Mykaela went to Southwestern University in Texas and obtained a B.A. in Music and The Arts. She returned to DeLand and serves as First Assemblies Music and Arts Director.</div>
     </div>
 
 
