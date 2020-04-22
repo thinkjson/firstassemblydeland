@@ -14,6 +14,7 @@ import "./images/promotions/promo3.jpg";
 import "./images/tower.jpg";
 import "./images/waystogive.png";
 import "./index.scss";
+import "./staff";
 
 document.querySelectorAll(".component-live").forEach(div => render(<Live />, div));
 document.querySelectorAll(".component-social").forEach(div => render(<Social />, div));

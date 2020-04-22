@@ -4,59 +4,82 @@ title: Staff and Eldership
 permalink: /about-us/people/
 ---
 
-## Michael Modica
- Lead Pastor
- +13868012001
-Michael Modica has been Lead Pastor at First Assembly DeLand since September 1992. Michael along with Renee his wife of 35 years oversee First Assembly DeLand.
+<div class="staff row">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_mike_modica2019.jpg">
+        <h2>Michael Modica</h2>
+        <div class="title">Lead Pastor</div>
+        <div class="phone"><a href="tel:3868012001">(386) 801-2001</a></div>
 
-READ BIOGRAPHY
+        <div>Michael Modica has been Lead Pastor at First Assembly DeLand since September 1992. Michael along with Renee his wife of 35 years oversee First Assembly DeLand.</div>
+    </div>
 
-## Mike Carroll
- Associate Pastor
- +1 (386) 804-2848
-Mike Carroll is a graduate of Stetson University and he and his wife of 41 years, Donna, have served as Associate Pastors since 1996.
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_mike_carroll2019.jpg">
+        <h2>Mike Carroll</h2>
+        <div class="title">Associate Pastor</div>
+        <div class="phone"><a href="tel:3868042848">(386) 804-2848</a></div>
+        Mike Carroll is a graduate of Stetson University and he and his wife of 41 years, Donna, have served as Associate Pastors since 1996.
+    </div>
 
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_nathan_buker2019.jpg">
+        <h2>Nathan Buker</h2>
+        <div class="title">Youth Pastor</div>
+        +1 (386) 479-6425
+        Pastor Nate has been involved with student ministry in Deland area for over 16 years. Along with his wife Dawn of 23 years they have enjoyed supporting the family unit as they invest teens.
+    </div>
 
-## Nathan Buker
- Youth Pastor
- +1 (386) 479-6425
-Pastor Nate has been involved with student ministry in Deland area for over 16 years. Along with his wife Dawn of 23 years they have enjoyed supporting the family unit as they invest teens.
 
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_Pastor_Dawn_09.jpg">
+        <h2>Dawn Anderson</h2>
+        <div class="title">Children's Pastor</div>
+        +1 (386) 801-8055
+    </div>
 
-## Dawn Anderson
- Children's Pastor
- +1 (386) 801-8055
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_mykaela_blades2019.jpg">
+        <h2>Mykaela Blades</h2>
+        <div class="title">Music and Arts Director</div>
+        +1 (386) 748-6902
+        After attending First Assembly as a youth, Mykaela went to Southwestern University in Texas and obtained a B.A. in Music and The Arts. She returned to DeLand and serves as First Assemblies Music and Arts Director.
+    </div>
 
-## Mykaela Blades
- Music and Arts Director
- +1 (386) 748-6902
-After attending First Assembly as a youth, Mykaela went to Southwestern University in Texas and obtained a B.A. in Music and The Arts. She returned to DeLand and serves as First Assemblies Music and Arts Director.
 
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_susan_john_anderson2019.jpg">
+        <h2>Susan Anderson</h2>
+        <div class="title">Volunteer Coordinator</div>
+    </div>
 
-## Susan Anderson
- Volunteer Coordinator
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_susan_john_anderson2019.jpg">
+        <h2>John Anderson</h2>
+        <div class="title">Facilities Manager</div>
+    </div>
 
-## John Anderson
- Facilities Manager
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_dawn_buker.jpg">
+        <h2>Dawn Buker</h2>
+        <div class="title">Nursery Coordinator</div>
+    </div>
 
-## Dawn Buker
- Nursery Coordinator
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="https://i.picsum.photos/id/1019/380/380.jpg">
+        <h2>Ralph Youngquist</h2>
+        <div class="title">Elder</div>
+    </div>
 
-## Ralph Youngquist
- Elder
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="https://i.picsum.photos/id/1019/380/380.jpg">
+        <h2>Lee Pait</h2>
+        <div class="title">Elder</div>
+    </div>
 
-## Lee Pait
- Elder
-READ BIOGRAPHY
-
-## Patt Lott
- Elder
-READ BIOGRAPHY
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img class="image-responsive" src="/static/scaled_patt_lott2019.jpg">
+        <h2>Patt Lott</h2>
+        <div class="title">Elder</div>
+    </div>
+</div>
