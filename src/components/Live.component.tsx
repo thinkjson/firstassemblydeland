@@ -21,7 +21,7 @@ export class Live extends React.Component<{}, LiveState> {
     isLiveService() {
         const now = new Date();
         const params = new URLSearchParams(window.location.search);
-        const day = parseInt(params.get("day"), 10) || now.getDay();
+        const day = params.get("day") ? parseInt(params.get("day"), 10) : now.getDay();
         const hour = `${now.getHours()}`.padStart(2);
         const minute = `${now.getMinutes()}`.padStart(2);
         const time = params.get("time") || `${hour}:${minute}`;
