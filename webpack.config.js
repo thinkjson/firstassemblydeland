@@ -84,16 +84,23 @@ module.exports = {
         extensions: [".tsx", ".ts", ".js"],
     },
     output: {
-        filename: "bundle.[hash].js",
+        filename: "bundle.[contenthash].js",
         path: path.resolve(__dirname, "static"),
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "bundle.[hash].css",
+            filename: "bundle.[contenthash].css",
         }),
         function () {
             this.plugin("done", function (stats) {
-                fs.writeFileSync(path.join(__dirname, "_data", "webpack.yml"), 'hash: "' + stats.hash + '"');
+                const hashes = [];
+                Array.from(stats.compilation.assetsInfo.keys()).forEach(key => {
+                    const [filename, hash, extension] = key.split(".");
+                    if (extension) {
+                        hashes.push(`${filename}_${extension}: "${hash}"`);
+                    }
+                });
+                fs.writeFileSync(path.join(__dirname, "_data", "webpack.yml"), hashes.join("\n"));
             });
         },
     ],
