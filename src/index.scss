@@ -136,7 +136,7 @@ navbar {
     background-color: $link-color;
     background-image: url("/static/tower.jpg");
     background-size: cover;
-    background-position: 33% 0%;
+    background-position: 33% 33%;
     color: $alabaster;
     font-style: italic;
     font-size: 20px;
@@ -164,7 +164,8 @@ navbar {
         flex-basis: 50%;
 
         @media screen and (max-width: $mobile-breakpoint) {
-            margin-top: 120px;
+            padding: 16px;
+            margin-top: 150px;
             flex-basis: 100%;
         }
     }
