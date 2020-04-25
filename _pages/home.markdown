@@ -32,13 +32,13 @@ permalink: /
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div>
             <h3>Wednesdays at 6:30pm</h3>
-            Bible study
+            Bible study (online only)
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div>
             <h3>Thursdays at 6pm</h3>
-            MEGA Men
+            MEGA Men (via <a href="https://zoom.us/j/608213572">Zoom</a>)
         </div>
     </div>
 </div>
