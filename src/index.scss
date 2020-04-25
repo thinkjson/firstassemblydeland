@@ -5,6 +5,7 @@ $primary-color: #b6121b;
 $link-color: #3f3f3f;
 $mobile-breakpoint: 1023px;
 $alabaster: #fafafa;
+$content-width: 940px;
 
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -60,7 +61,7 @@ button, a.button {
 }
 
 .content, navbar {
-    max-width: 940px;
+    max-width: $content-width;
     margin: 16px auto 24px;
     display: block;
 
@@ -132,50 +133,64 @@ navbar {
     }
 }
 
+.banner {
+    background-image: url("/static/tower.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 220px;
+    background-position: 33% 33%;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        min-height: 150px;
+    }
+}
+
+.mission {
+    background-color: #1f1f1a;
+    color: $alabaster;
+    display: flex;
+
+    a {
+        color: $alabaster;
+    }
+
+    .statement {
+        max-width: 940px;
+        margin: 16px auto;
+
+        a {
+            padding-left: 8px;
+        }
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            font-size: 14px;
+            margin: 8px;
+
+            a {
+                display: block;
+                float: right;
+                padding: 0;
+            }
+        }
+    }
+}
+
 .hero {
     background-color: $link-color;
-    background-image: url("/static/tower.jpg");
     background-size: cover;
     background-position: 33% 33%;
     color: $alabaster;
-    font-style: italic;
     font-size: 20px;
     min-height: 150px;
     display: flex;
     flex: 1;
 
-    .content {
-        margin: 32px auto;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        flex: 1 50%;
-
-        @media screen and (max-width: $mobile-breakpoint) {
-            margin: 0;
-            flex: 1;
-        }
-    }
-
-    .mission {
-        background-color: rgba(0, 0, 0, 0.8);
-        box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
-        padding: 24px;
-        flex-basis: 50%;
-
-        @media screen and (max-width: $mobile-breakpoint) {
-            padding: 16px;
-            margin-top: 150px;
-            flex-basis: 100%;
-        }
+    a {
+        color: $alabaster;
     }
 
     .about {
         font-size: initial;
-    }
-
-    a {
-        color: $alabaster;
     }
 
     @media screen and (max-width: $mobile-breakpoint) {
@@ -204,7 +219,6 @@ navbar {
         align-items: center;
         justify-content: center;
         min-height: 150px;
-        font-style: normal;
         box-shadow: 1px 1px 5px #666;
 
         a {
