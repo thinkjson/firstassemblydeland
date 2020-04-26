@@ -23,8 +23,11 @@ h2 {
 }
 
 a {
-    text-decoration: none;
     color: $link-color;
+}
+
+navbar a {
+    text-decoration: none;
 }
 
 button, a.button {
