@@ -136,6 +136,12 @@ navbar {
     }
 }
 
+.social {
+    a {
+        text-decoration: none;
+    }
+}
+
 .banner {
     background-image: url("/static/tower.jpg");
     background-size: cover;
@@ -227,6 +233,7 @@ navbar {
         a {
             padding: 64px;
             text-align: center;
+            text-decoration: none;
 
             h2 {
                 margin: 0;
