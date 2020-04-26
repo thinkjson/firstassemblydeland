@@ -17,6 +17,7 @@ Each of our staff has experience in the marketplace before coming to First Assem
         <h2>More about us</h2>
         <ul>
             <li><strong><a href="/about-us/our-values/">Our Values</a></strong></li>
+            <li><strong><a href="/about-us/what-we-believe/">What We Believe</a></strong></li>
             <li><strong><a href="/about-us/history-vision/">History & Vision</a></strong></li>
             <li><strong><a href="/about-us/more-about-jesus/">More About Jesus</a></strong></li>
             <li><strong><a href="/about-us/ministries/">Ministries</a></strong></li>
