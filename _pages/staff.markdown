@@ -29,7 +29,7 @@ permalink: /about-us/people/
         <div class="title">Youth Pastor</div>
         <div class="phone"><a href="tel:3864796425">(386) 479-6425</a></div>
         
-        Pastor Nate has been involved with student ministry in Deland area for over 16 years. Along with his wife Dawn of 23 years they have enjoyed supporting the family unit as they invest teens.
+        Pastor Nate has been involved with student ministry in DeLand area for over 16 years. Along with his wife Dawn of 23 years they have enjoyed supporting the family unit as they invest teens.
     </div>
 
 
