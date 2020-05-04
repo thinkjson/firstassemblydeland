@@ -33,6 +33,7 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
 include: ['_pages', '_data', 'static']
 
 # Exclude from processing.
