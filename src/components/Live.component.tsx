@@ -45,7 +45,7 @@ export class Live extends React.Component<{}, LiveState> {
         if (isLiveService === LiveService.MegaMen) {
             return (
                 <div className="megamen live hero">
-                    <a href="https://zoom.us/j/608213572" target="_blank">
+                    <a href="https://zoom.us/j/3867362948" target="_blank">
                         <h2>MEGA Men is live now!</h2>
                         Click here to connect to the Zoom call
                     </a>
