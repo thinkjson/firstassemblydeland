@@ -22,8 +22,8 @@ export class Live extends React.Component<{}, LiveState> {
         const now = new Date();
         const params = new URLSearchParams(window.location.search);
         const day = params.get("day") ? parseInt(params.get("day"), 10) : now.getDay();
-        const hour = `${now.getHours()}`.padStart(2);
-        const minute = `${now.getMinutes()}`.padStart(2);
+        const hour = `${now.getHours()}`.padStart(2, "0");
+        const minute = `${now.getMinutes()}`.padStart(2, "0");
         const time = params.get("time") || `${hour}:${minute}`;
         if (day === 4 && time >= "18:00" && time <= "19:30") {
             return LiveService.MegaMen;
