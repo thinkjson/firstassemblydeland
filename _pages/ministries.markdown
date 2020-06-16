@@ -56,7 +56,7 @@ Each year we have a week long mission to reach every house in DeLand with the Go
 
 ### Food Pantry
 
-We maintain a food pantry to provided bagged groceries to those in need on a walk-in basis Tuesday 12pm-3pm.
+We maintain a food pantry to provided bagged groceries to those in need on a walk-in basis Tuesday from 9am to noon.
 
 ## Worship and Arts
 
@@ -78,6 +78,6 @@ We are the Yahoos. We are Young at Heart, and slightly older in other parts. We 
 
 ## Food Pantry
 
-It is our goal to love God and love our neighbor as part of that, we offer a Food Pantry to those in need.We provide bagged groceries to those in need on a walk-in basis Tuesday 12pm-3pm as part of our Food Pantry outreach in DeLand, FL.
+It is our goal to love God and love our neighbor as part of that, we offer a Food Pantry to those in need.We provide bagged groceries to those in need on a walk-in basis Tuesday from 9am to noon as part of our Food Pantry outreach in DeLand, FL.
 
 *First Assembly does not and shall not discriminate on the basis of race, color, religion (creed), gender, age, national origin (ancestry), disability, in any of its activities or operations.*
