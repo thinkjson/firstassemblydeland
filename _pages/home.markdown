@@ -40,6 +40,13 @@ permalink: /
 
 <div class="component-social"></div>
 
-<a href="https://firstdeland.churchcenter.com/giving">
-    <img src="/static/waystogive.png" class="image-responsive" />
-</a>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <a href="https://firstdeland.churchcenter.com/giving">
+            <img src="/static/waystogive.png" class="image-responsive" />
+        </a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <img class="image-responsive" src="https://www.dropbox.com/s/raw/vjuogcungj54t69/bottom_notice.jpg" />
+    </div>
+</div>
