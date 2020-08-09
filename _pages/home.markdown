@@ -20,6 +20,14 @@ permalink: /
     </div>
 </div>
 
+<div class="schedule row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div>
+            Have a prayer request? Send it to <a href="emailto:prayer@firstassemblydeland.com">prayer@firstassemblydeland.com</a>
+        </div>
+    </div>
+</div>
+
 ## Services and schedule
 
 {% include schedule.html %}
