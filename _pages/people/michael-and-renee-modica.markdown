@@ -1,3 +1,9 @@
+---
+layout: default
+title: Michael and Renee Modica
+permalink: /about-us/people/michael-and-renee-modica/
+---
+
 Michael Modica has been Lead Pastor at First Assembly DeLand since September 1992. Michael along with Renee his wife of 35 years oversee First Assembly DeLand.
 
 After time in the U.S. ARMY and then college, Michael spent time in the corporate world content to serve and finance ministries locally and around the world. Pastor Modica thought it would be wise to start his theological studies in case there would be a call into ordained ministry years later. This calling came after serving at their local church faithfully in the New Jersey. God called them nearly 1000 miles south over 30 years ago and they have never looked back.
