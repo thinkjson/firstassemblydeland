@@ -8,7 +8,7 @@ $alabaster: #fafafa;
 $content-width: 940px;
 
 body {
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 24px;
@@ -30,7 +30,8 @@ navbar a {
     text-decoration: none;
 }
 
-button, a.button {
+button,
+a.button {
     background-color: $primary-color;
     color: #fff;
     border-radius: 4px;
@@ -63,7 +64,8 @@ button, a.button {
     }
 }
 
-.content, navbar {
+.content,
+navbar {
     max-width: $content-width;
     margin: 16px auto 24px;
     display: block;
@@ -105,7 +107,6 @@ navbar {
             @media screen and (max-width: $mobile-breakpoint) {
                 margin-left: 16px;
             }
-
         }
     }
 }
@@ -119,7 +120,8 @@ navbar {
     }
 }
 
-.schedule, .social {
+.schedule,
+.social {
     margin-bottom: 16px;
 
     > div > div {
@@ -223,7 +225,7 @@ navbar {
         }
     }
 
-    &.live {    
+    &.live {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -246,7 +248,8 @@ navbar {
     .col-lg-4 {
         margin-bottom: 22px;
 
-        .title,.phone {
+        .title,
+        .phone {
             color: $link-color;
             font-size: 14px;
             line-height: 18px;
@@ -272,5 +275,6 @@ navbar {
 }
 
 .promotion {
-    filter: grayscale(1) contrast(1.25);
+    display: flex;
+    align-items: center;
 }

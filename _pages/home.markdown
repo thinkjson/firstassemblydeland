@@ -9,13 +9,13 @@ permalink: /
 <div class="component-live"></div>
 
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 promotion">
         <a href="https://www.dropbox.com/s/raw/6euxggd0dk59l6y/promo1.jpg" target="_blank"><img class="image-responsive" src="https://www.dropbox.com/s/raw/6euxggd0dk59l6y/promo1.jpg" /></a>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 promotion">
         <a href="https://www.dropbox.com/s/raw/2bfzofasnzrqa88/promo2.jpg" target="_blank"><img class="image-responsive" src="https://www.dropbox.com/s/raw/2bfzofasnzrqa88/promo2.jpg" /></a>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 promotion">
         <a href="https://www.dropbox.com/s/raw/hehmq43sioytxi1/promo3.jpg" target="_blank"><img class="image-responsive" src="https://www.dropbox.com/s/raw/hehmq43sioytxi1/promo3.jpg" /></a>
     </div>
 </div>
