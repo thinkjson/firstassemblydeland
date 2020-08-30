@@ -12,6 +12,7 @@ permalink: /about-us/people/
         <div class="phone"><a href="tel:3868012001">(386) 801-2001</a></div>
 
         <div>Michael Modica has been Lead Pastor at First Assembly DeLand since September 1992. Michael along with Renee his wife of 35 years oversee First Assembly DeLand.</div>
+        <div><a href="/about-us/people/michael-and-renee-modica/">Read more &raquo;</a></div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -21,6 +22,7 @@ permalink: /about-us/people/
         <div class="phone"><a href="tel:3868042848">(386) 804-2848</a></div>
 
         <div>Mike Carroll is a graduate of Stetson University and he and his wife of 41 years, Donna, have served as Associate Pastors since 1996.</div>
+        <div><a href="/about-us/people/mike-and-donna-carroll/">Read more &raquo;</a></div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -30,6 +32,7 @@ permalink: /about-us/people/
         <div class="phone"><a href="tel:3864796425">(386) 479-6425</a></div>
 
         Pastor Nate has been involved with student ministry in DeLand area for over 16 years. Along with his wife Dawn of 23 years they have enjoyed supporting the family unit as they invest teens.
+        <div><a href="/about-us/people/nathan-and-dawn-buker/">Read more &raquo;</a></div>
     </div>
 
 
