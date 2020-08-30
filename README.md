@@ -1,7 +1,8 @@
 ## First Assembly Deland web site
 
 First Assembly's web site uses Jekyll, which builds Markdown files into HTML staticly, and then serves on Github Pages.
-The frontend functionality is driven by React, built by webpack.
+The frontend functionality is driven by React, built by webpack. To work on the church's web site, you will need a Github username
+and will need to be added to the [firstassemblydeland](https://github.com/firstassemblydeland) team.
 
 ### Text changes
 
@@ -15,6 +16,9 @@ The promotions on the home page are driven by Dropbox. To update a promotion, si
 in the church's Dropbox account, and overwrite the file you want to change (promo1, 2, and 3 respectively). If you delete the file,
 or add another file with a different filename, it will not work. Dropbox likewise keeps an audit log, and changes are relatively
 easy to roll back if necessary.
+
+If you don't have access to the church's Dropbox account, [open a ticket](https://github.com/firstassemblydeland/firstassemblydeland/issues/new) with your dropbox username, and someone on the tech team
+will grant you access.
 
 ### First time setup
 
