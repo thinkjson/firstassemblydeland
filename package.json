@@ -1,39 +1,40 @@
 {
-  "name": "firstassemblydeland",
-  "version": "1.0.0",
-  "description": "First Assembly of God DeLand Church in DeLand, Florida is a Community Caring Church serving DeLand, Volusia County and beyond.",
-  "main": "index.js",
-  "repository": "git@github.com:thinkjson/firstassemblydeland.git",
-  "author": "Mark Cahill <mark@thinkjson.com>",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "start": "yarn run webpack --watch | jekyll serve --livereload"
-  },
-  "devDependencies": {
-    "@types/react": "^16.9.34",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.1.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.1.1",
-    "css-loader": "^3.4.2",
-    "file-loader": "^6.0.0",
-    "image-webpack-loader": "^6.0.0",
-    "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
-    "react": "^16.13.1",
-    "react-addons-update": "^15.6.2",
-    "react-dom": "^16.13.1",
-    "sass-loader": "^8.0.2",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
-  },
-  "dependencies": {
-    "@types/react-dom": "^16.9.6",
-    "flexboxgrid": "^6.3.1"
-  }
+    "name": "firstassemblydeland",
+    "version": "1.0.0",
+    "description": "First Assembly of God DeLand Church in DeLand, Florida is a Community Caring Church serving DeLand, Volusia County and beyond.",
+    "main": "index.js",
+    "repository": "git@github.com:thinkjson/firstassemblydeland.git",
+    "author": "Mark Cahill <mark@thinkjson.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "yarn run webpack --watch | bundle exec jekyll serve --livereload",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@types/react": "^16.9.34",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.1.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^5.1.1",
+        "css-loader": "^3.4.2",
+        "file-loader": "^6.0.0",
+        "image-webpack-loader": "^6.0.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.13.1",
+        "react": "^16.13.1",
+        "react-addons-update": "^15.6.2",
+        "react-dom": "^16.13.1",
+        "sass-loader": "^8.0.2",
+        "ts-loader": "^6.2.2",
+        "typescript": "^3.8.3",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "@types/react-dom": "^16.9.6",
+        "flexboxgrid": "^6.3.1"
+    }
 }
