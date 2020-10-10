@@ -56,7 +56,7 @@ export class Live extends React.Component<{}, LiveState> {
                 <div className="sunday live hero">
                     <a href="https://www.youtube.com/c/Firstassemblydeland/live" target="_blank">
                         <h2>Sunday Service is live now!</h2>
-                        Click here to watch to the live stream, or tune in to 87.9 FM
+                        Click here to watch to the live stream
                     </a>
                 </div>
             );
