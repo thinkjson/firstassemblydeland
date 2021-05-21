@@ -89,15 +89,13 @@ permalink: /about-us/people/
         <div class="title">Elder</div>
     </div>
 
-    </div>
-
-   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <img class="image-responsive" src="/static/scaled_chris_white2021.jpg">
         <h2>Pastor Chris White</h2>
         <div class="title">Evangelist - Preaching Team</div>
 
         <div>Pastor Chris is an evangelist serving with the preaching team at First Assembly Deland. Called to build bridges and point others to Christ.  He is married for 33 years with 2 adult children that Love the Lord.</div>
   
-   </div>
+    </div>
 
 
